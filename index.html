@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+  <header class=" bg-dark border-bottom">
+    <div class=" text-white container p-2 gap-2 d-flex flex-row justify-content-sm-between justify-content-around align-items-center " >
+      <img class="logo" src="./images/logo.png" alt="">
+      <div class=" d-flex flex-column justify-content-center align-items-start  ">
+        <span id="meet" class="fs-1" >meet</span>
+        <span  class="fs-5 fs-md-3 anoop">ANOOP WILSON</span>
+      </div class="text-danger-emphasis ">
+      <div>
+        <a class="text-white icon-link-hover text-decoration-none" href="#">Contact me</a>
+        <span>|</span>
+        <a  class=" text-white icon-link-hover text-decoration-none " href="#">About me</a>
+      </div>
+    </div>
+  </header>
+  <body class=" bg-secondary bg-gradient">
+    <section class=" container section1 d-flex flex-row justify-content-center align-items-center">
+      <img class="cover img-thumbnail image-fluid " src="./images/james-harrison-vpOeXr5wmR4-unsplash.jpg" alt="">
+    </section>
+    <section class="container p-3 d-flex flex-column justify-content-center align-items-center" >
+      <img class=" img-thumbnail rounded-circle me" src="./images/me photo.png" alt="">
+      <h1>Who am I?</h1>
+      <p class="text-wrap text-white" >👋 Hello! I'm a passionate Web Developer with a 7-week experience in creating efficient and innovative web solutions. Alongside my coding skills, I hold a Diploma in Project Management, which equips me with the ability to deliver projects on time while maintaining the highest quality standards. I'm always eager to learn more and take on new challenges. Let's connect and create something amazing together! <br>My technical expertise lies in the MERN stack (MongoDB, Express.js, React, and Node.js), which I have learned and applied in designing several projects. These projects have allowed me to put my skills into practice and create dynamic, user-friendly web applications. Alongside my coding skills, I hold a Diploma in Project Management. This equips me with the ability to deliver projects on time while maintaining the highest quality standards. I’m always eager to learn more and take on new challenges. Let’s connect and create something amazing together!
+      </p>
+    </section> 
+    <section class="container mb-3 projects ">
+<div class="row">
+  <div class="card col-sm-12 col-md-4 m-3" style="width: 18rem;">
+    <img src="./images/fresh market.jpg" class="card-img-top p-3" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">JoyFresh Mart</h5>
+      <p class="card-text">Created a website for retail store JoyFresh Mart.This website was the attepmt for first responsive website using HTML and CSS. <br> The JoyFresh Mart website was designed to provide an online presence for the retail store and serve as a platform for customers to explore the products offered. The website features various sections such as Home, About Us, Products, and Contact Us, each serving a specific purpose.</p>
+      <a href="https://code003-responsive-ecommerce-media-quires.vercel.app/" class="btn btn-primary">Shop here</a>
+    </div>
+  </div>
+
+  <div class="card col-sm-12 col-md-4 m-3 " style="width: 18rem;">
+    <img src="./images/github.jpg" class="card-img-top p-3" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">GitHub Journey</h5>
+      <p class="card-text">During last 7 weeks of web development journey, attempted to desing few websites. The web development journey is recorded in my GitHub profile. <br> These projects ranged from simple static websites to complex dynamic web applications, each requiring a different set of skills and technologies. </p>
+      <a href="https://github.com/anoopwilson96" class="btn btn-primary">My GitHub</a>
+    </div>
+  </div>
+  <div class="card col-sm-12 col-md-4 m-3" style="width: 18rem;">
+    <img src="./images/programmer-1653351_1920.png" class="card-img-top p-3" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">FSWD Course</h5>
+      <p class="card-text">Enrolled full stack web development course in Entri. The class reached Week 08 with proper teching and guidence of mento Sachin Titus.</p> <p class=" d-none d-md-block">The course has been meticulously designed to cover all aspects of full-stack development. We started with the basics and gradually moved on to more advanced topics, ensuring a solid foundation and a thorough understanding of web development. </p>
+      <a href="./images/Full-Stack-Web-3.pdf" class="btn btn-primary">My course overview</a>
+    </div>
+  </div>
+
+
+  <div class="card col-sm-12 col-md-4 m-3" style="width: 18rem;">
+    <img src="./images/SpotifySouthKorea Clone.png" class="card-img-top p-3" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Spotify clone</h5>
+      <p class="card-text">Attempt to clone spotify website. As part of Full stack web development I have cloned spotify website. <br> The process began with a thorough analysis of the Spotify website, understanding its structure, layout, and various features. I paid close attention to the user interface and user experience, as these are key aspects of any successful web application</p>
+      <a href="https://spotify-southkorea-code01.vercel.app/" class="btn btn-primary">Check cloned website</a>
+    </div>
+  </div>
+
+</div>
+
+      
+
+
+    </section>
+
+    <section class=" container contactme border border-white rounded p-2 bg-light bg-gradient">
+      <h2 id="contactme">Contact me:</h2>
+      <form>
+        <div>
+          <label for="exampleInputEmail1" class="form-label">Your name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div>
+          <label for="exampleInputEmail1" class="form-label">Phone number</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+  <footer class="mt-5 border-top ">
+    <section class=" py-5 container d-flex flex-row justify-content-center align-items-center gap-5 ">
+      <span>Follow me</span>
+      <img src="./images/twitter_icon.png" alt="">
+      <img src="./images/facebook_facebook logo_icon.png" alt="">
+      <img src="./images/instagram_instagram logo_icon.png" alt="">
+    </section>
+  </footer>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>
+

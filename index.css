@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo{
+  height: 40px;
+  width: 40px;
+}
+#meet{
+  font-family: 'Great Vibes', cursive;
+}
+header a{
+  font-family:'Great Vibes', cursive; ;
+}
+.anoop{
+  font-family: 'Dancing Script', cursive;
+
+
+}
+.me{
+  height: 175px;
+  width: 175px;
+}
+.cover{
+  max-width: 100%;
+  max-height: 500px;
+  margin-top: 1rem;
+margin-bottom: 1rem;
+border-radius: 0.75rem;
+}
+#contactme{
+  font-family: 'Dancing Script', cursive;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+footer img{
+  height: 35px;
+}
+.projects{
+  max: width 500px;;
+  max: height 500px; ;
+}
